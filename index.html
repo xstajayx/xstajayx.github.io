@@ -1,64 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#0f0f10" />
-  <title>JWorld Creations</title>
-  <meta name="description" content="Mobile apps and games by JWorld Creations." />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#0f0f10" />
 
-  <!-- AdSense Loader (verification likes this on the ROOT domain) -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8837377060291347"
-    crossorigin="anonymous"></script>
+<title>JWorld Creations</title>
+<meta name="description" content="Games, apps, and interactive web projects by JWorld Creations." />
 
-  <style>
-    body{
-      margin:0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      background:#0f0f10;
-      color:#fff;
-      display:flex;
-      min-height:100vh;
-      align-items:center;
-      justify-content:center;
-      padding:20px;
-      text-align:center;
-    }
-    .card{
-      max-width:520px;
-      width:100%;
-      padding:18px;
-      border-radius:20px;
-      border:1px solid rgba(255,255,255,.10);
-      background:rgba(255,255,255,.05);
-      box-shadow:0 18px 60px rgba(0,0,0,.55);
-    }
-    h1{ margin:0 0 6px; font-size:26px; }
-    p{ margin:0 0 14px; color:rgba(255,255,255,.75); }
-    a{
-      display:inline-block;
-      padding:12px 14px;
-      border-radius:14px;
-      text-decoration:none;
-      color:#fff;
-      font-weight:800;
-      background:linear-gradient(135deg,#3a82f7,#7c3aed);
-    }
-    .small{
-      margin-top:12px;
-      font-size:12px;
-      color:rgba(255,255,255,.55);
-    }
-  </style>
+<!-- AdSense verification script -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8837377060291347"
+     crossorigin="anonymous"></script>
+
+<style>
+  body{
+    margin:0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    background:#0f0f10;
+    color:#fff;
+    padding:20px 14px 40px;
+    text-align:center;
+  }
+  h1{margin-bottom:6px;}
+  .sub{color:rgba(255,255,255,.7); margin-bottom:22px;}
+  .grid{
+    display:grid;
+    gap:14px;
+    max-width:520px;
+    margin:0 auto;
+  }
+  .card{
+    padding:16px;
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,.10);
+    background:rgba(255,255,255,.05);
+  }
+  .btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:12px 14px;
+    border-radius:14px;
+    text-decoration:none;
+    font-weight:800;
+    color:#fff;
+    background:linear-gradient(135deg,#3a82f7,#7c3aed);
+  }
+  .small{margin-top:30px;font-size:12px;color:rgba(255,255,255,.5);}
+</style>
 </head>
+
 <body>
+
+<h1>JWorld Creations</h1>
+<div class="sub">Games • Apps • Interactive Web Projects</div>
+
+<div class="grid">
+
   <div class="card">
-    <h1>JWorld Creations</h1>
-    <p>Mobile apps and games.</p>
-
-    <a href="/message-media-space/">Open Message Media Space</a>
-
-    <div class="small">© JWorld Creations</div>
+    <h3>🎮 Games</h3>
+    <p>Fun mobile games built for quick entertainment.</p>
+    <a class="btn" href="https://play.google.com/store/apps/details?id=com.jworldcreations.overrun" target="_blank">Play Overrun</a>
+    <br>
+    <a class="btn" href="https://play.google.com/store/apps/details?id=com.jworldcreations.dartsmaster" target="_blank">Play Darts Master</a>
   </div>
+
+  <div class="card">
+    <h3>😈 Web Pranks & Fun</h3>
+    <p>Harmless interactive web experiences made for laughs.</p>
+    <a class="btn" href="/message-media-space/">Open Message Media Space</a>
+  </div>
+
+  <div class="card">
+    <h3>🛠 Projects in Development</h3>
+    <p>Experimental tools and apps currently being built.</p>
+    <div style="color:rgba(255,255,255,.6); font-size:14px;">More coming soon…</div>
+  </div>
+
+</div>
+<p class="small">
+  <a href="/about.html">About</a> · <a href="/privacy.html">Privacy</a>
+</p>
+<div class="small">
+© JWorld Creations
+</div>
+
 </body>
 </html>
